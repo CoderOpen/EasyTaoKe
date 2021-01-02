@@ -1,0 +1,19 @@
+{
+    "name": "onecoder\/easytaoke",
+    "description": "最简单易用，最全的PHP淘客SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LaJun",
+            "email": "1361683946@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "OneCoder\\EasyTaoKe\\": "src"
+        }
+    }
+}
