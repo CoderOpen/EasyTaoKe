@@ -33,7 +33,11 @@ $callBackResult = $meiTuanUnion->validateCallback($params);
 
 ## 贡献
 
-欢迎广大PHPer一起加入淘客CPS SDK开发，致力于最完善易用的开源 SDK， 一起来PR
+欢迎广大PHPer一起加入淘客CPS SDK开发，致力于最完善易用的开源 SDK， 一起来PR，能做出来一个很多人使用的SDK，我想应该是每一个coder的梦想。
+
+## 关于作者
+
+公众号《一只码》创作者，交个朋友微信phpcoder666
 
 ## 开源协议
 
