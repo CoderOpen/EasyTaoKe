@@ -21,8 +21,8 @@ $config = [
 
 //实例化美团联盟应用
 $meiTuanUnion = \OneCoder\EasyTaoKe\Factory::meiTuanUnion($config);
-$startTime = time() - 24 * 60 * 60;
-$endTime   = time();
+$startTime = date('Y-m-d H:i:s', time() - 24 * 60 * 60);
+$endTime   = date('Y-m-d H:i:s');
 
 //获取美团联盟订单
 $data = $meiTuanUnion->getOrderList($startTime, $endTime);
